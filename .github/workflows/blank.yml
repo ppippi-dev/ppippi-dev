@@ -15,7 +15,7 @@ jobs:
 
       - uses: t1seo/maeul-in-the-sky@v1
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.my_personal_github_secret_token }}
 
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
